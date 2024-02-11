@@ -12,8 +12,7 @@ body {
     width: 100vw;
     height: auto;
     background-color: #1F2937;
-    border: 2px solid yellow;
-
+    /* border: 2px solid yellow; */
     box-sizing: border-box;
 }
 
@@ -84,6 +83,7 @@ ul#navbar li a {
     padding: 7px 30px;
     margin-top: 15px;
     border-radius: 7px;
+    font-size: 18px;
 }
 
 .hero-section-right-placeholder {
@@ -142,8 +142,6 @@ ul#navbar li a {
     font-size: 18px;
 }
 
-
-
 /* ******************** */
 /* MAIN SECTION: CENTER */
 /* ******************** */
@@ -170,8 +168,6 @@ ul#navbar li a {
     padding: 15px 275px 0 0;
     align-self: flex-end;
 }
-
-
 
 /* ******************** */
 /* MAIN SECTION: BOTTOM */
@@ -212,9 +208,14 @@ ul#navbar li a {
     align-self: center;
 }
 
-#signup {
+#cta-signup {
     border: 3px solid white;
+    background-color: #3882F6;
+    color: #F9FAF8;
     font-size: 18px;
+    padding: 7px 30px;
+    margin-top: 15px;
+    border-radius: 7px;
 }
 
 .main-section-bottom-blue-box-right {
@@ -239,8 +240,4 @@ ul#navbar li a {
     font-size: 18px;
     justify-content: center;
     align-items: center;
-}
-
-.copyright {
-
 }
