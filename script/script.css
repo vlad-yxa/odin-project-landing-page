@@ -47,9 +47,10 @@ ul#navbar li a {
 
 .hero-section {
     display: flex;
-    height: 420px;
+    /* box-sizing: border-box; */
+    min-height: 420px;
     /* border: 2px solid yellow; */
-    padding: 0 150px;
+    padding: 80px 150px 0 150px;
     color: #F9FAF8;
 }
 
@@ -57,7 +58,7 @@ ul#navbar li a {
 .hero-section-right-container {
     display: flex;
     flex: 1;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .hero-section-left-message {
@@ -90,7 +91,7 @@ ul#navbar li a {
     height: 65%;
     width: 100%;
     text-align: center;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -102,7 +103,7 @@ ul#navbar li a {
 /* ***************** */
 
 .main-section-top {
-    height: 500px;
+    min-height: 500px;
     /* border: 2px solid red; */
     background-color: white;
 }
@@ -118,6 +119,7 @@ ul#navbar li a {
     display: flex;
     justify-content: center;
     gap: 55px;
+    flex-wrap: wrap;
 }
 
 .main-section-top-one,
@@ -149,7 +151,7 @@ ul#navbar li a {
 .main-section-center {
     display: flex;
     flex-direction: column;
-    height: 425px;
+    min-height: 425px;
     /* border: 2px solid red; */
     background-color: rgb(223, 216, 216);
 }
@@ -175,7 +177,7 @@ ul#navbar li a {
 
 .main-section-bottom {
     display: flex;
-    height: 350px;
+    min-height: 350px;
     /* border: 2px solid red; */
     background-color: white;
     justify-content: center;
