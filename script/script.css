@@ -6,10 +6,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .main-container {
@@ -17,25 +13,23 @@ body {
     height: auto;
     background-color: #1F2937;
     border: 2px solid yellow;
-    justify-content: center;
-    padding: 0 150px;
+
     box-sizing: border-box;
 }
 
 .header {
-    align-items: stretch;
     display: flex;
     /* border: 2px solid red; */
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-
+    padding: 25px 150px;
+    color: #F9FAF8;
 }
 
 .logo {
     /* border: 2px solid yellow; */
-    color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 #navbar {
@@ -52,4 +46,201 @@ ul#navbar li a {
     padding-left: 30px;
 }
 
+.hero-section {
+    display: flex;
+    height: 420px;
+    /* border: 2px solid yellow; */
+    padding: 0 150px;
+    color: #F9FAF8;
+}
 
+.hero-section-left-container,
+.hero-section-right-container {
+    display: flex;
+    flex: 1;
+    padding-top: 80px;
+}
+
+.hero-section-left-message {
+    padding-right: 50px;
+}
+
+.hero-section-left-message h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-bottom: 15px;
+}
+
+.hero-section-left-message div,
+.hero-section-left-message #signup {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 7px 30px;
+    margin-top: 15px;
+    border-radius: 7px;
+}
+
+.hero-section-right-placeholder {
+    height: 65%;
+    width: 100%;
+    text-align: center;
+    /* border: 1px solid red; */
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ***************** */
+/* MAIN SECTION: TOP */
+/* ***************** */
+
+.main-section-top {
+    height: 500px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+
+.main-section-top-heading {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 40px 0;
+}
+
+.main-section-top-img-container {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+.main-section-top-one,
+.main-section-top-two,
+.main-section-top-three,
+.main-section-top-four {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section-top-img-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+    height: 175px;
+    width: 175px;
+}
+
+.main-section-top-subtext {
+    text-align: center;
+    max-width: 175px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+
+
+
+/* ******************** */
+/* MAIN SECTION: CENTER */
+/* ******************** */
+
+.main-section-center {
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+    /* border: 2px solid red; */
+    background-color: rgb(223, 216, 216);
+}
+
+.main-section-center-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 125px 250px 0 250px;
+}
+
+.main-section-center-author {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 15px 275px 0 0;
+    align-self: flex-end;
+}
+
+
+
+/* ******************** */
+/* MAIN SECTION: BOTTOM */
+/* ******************** */
+
+.main-section-bottom {
+    display: flex;
+    height: 350px;
+    /* border: 2px solid red; */
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-bottom-blue-box {
+    color: #F9FAF8;
+    width: 80%;
+    height: 50%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.main-section-bottom-blue-box-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    padding-left: 150px;
+    flex: 2;
+}
+
+.main-section-bottom-blue-box-right {
+    /* border: 2px solid red; */
+    flex: 1;
+    align-self: center;
+}
+
+#signup {
+    border: 3px solid white;
+    font-size: 18px;
+}
+
+.main-section-bottom-blue-box-right {
+    padding-bottom: 15px;
+}
+
+.main-section-bottom-blue-box-cta {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* ***************** */
+/* FOOTER ************/
+/* ***************** */
+
+.footer {
+    display: flex;
+    height: 100px;
+    /* border: 2px solid red; */
+    color: #F9FAF8;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+
+}
